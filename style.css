@@ -1,127 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Roboto', sans-serif;
-} 
-
-body{
-    /* background-color: #007ced; */
-    background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%);
-    /* background-color:#c0daf935; */
-    height: 100vh;
-}
-            /* ----header------ */
-ul{
-    display: flex;
-    justify-content: center;
-}
-ul li{
-    margin-top: 20px;
-    font-size:25px ;
-    text-align: center;
-    padding: 20px;
-    list-style: none;
-    float: left;
-}
-ul li a{ text-decoration: none; color: rgb(255, 255, 255); font-weight: bold;}
-ul li a:hover{
-    transition: all 0.1s ease;
-    color: #0000009d;
-    /* color: rgba(0, 0, 255, 0.573); */
-    cursor: pointer;
-}
-        /* ----header-End------ */
-
-
-     /* ----- Cloud-Box-------*/
-.container{
-    /* z-index: 999; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-    /* background-color: rgba(6, 13, 13, 0.346); */
-    background-color:#ffffff;
-    border-radius: 20px;
-    width: 695px;
-    height: 500px;
-    margin: auto;
-    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.14);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
+body {
+  /* background-color: #007ced; */
+  background: linear-gradient(to bottom, #007ced 1%, #cce7ff 100%);
+  /* background-color:#c0daf935; */
+  height: 100vh;
+}
 
-.Cloud-Boxes{
-    /* background-color: #007ced; */
-    background: linear-gradient(to bottom, #007aedab 1%,#cce7ff 100%);
- /* background-color: #c0daf951;  */
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-content: center;
-align-items: center;
-/* text-align: center;  */
+/* ----header------ */
+ul {
+  display: flex;
+  justify-content: center;
 }
-#box1{
-    width: 685px;
-    height: 280px;
-    font-size: xx-large;
-    border-radius: 15px 15px 0px 0px;
+ul li {
+  /* margin-top: 20px; */
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+  list-style: none;
+  /* float: left; */
 }
-.flex{
-    display: flex;
-    align-items: center;
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
-#box1 span{
-    margin: 8px;
+ul li a:hover {
+  transition: all 0.1s ease;
+  color: #0000009d;
+  cursor: pointer;
 }
-#box1 p{
-    margin: 5px 15px;
+/* ----header-End------ */
+
+/* ----- Cloud-Box-------*/
+.container {
+  z-index: 999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  /* background-color: rgba(6, 13, 13, 0.346); */
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 695px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.14);
 }
-#box1 div{
-    margin-top: -28px;
+
+.Cloud-Boxes {
+  /* background-color: #007ced; */
+  background: linear-gradient(to bottom, #007aedab 1%, #cce7ff 100%);
+  /* background-color: #c0daf951;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  /* text-align: center;  */
 }
-.boxes{
-width: 167px;
-height: 205px;
-font-size: 25px;
-font-weight: 400;
-text-align: center;
+#box1 {
+  width: 685px;
+  height: 280px;
+  font-size: xx-large;
+  border-radius: 15px 15px 0px 0px;
 }
-.box-content{
-    display: flex;
-    flex-direction: column;
+.flex {
+  display: flex;
+  align-items: center;
 }
-.box-content:hover{
-cursor: pointer;
-transform: scaleY(1.03) translateY(-5px);
-transition:  0.5s ease;
+#box1 span {
+  margin: 8px;
 }
-.flex:hover{
-    cursor: pointer;
-    transform: scaleY(1.05) translateY(-3px);
-    transition-duration: 500ms;
+#box1 p {
+  margin: 5px 15px;
+}
+#box1 div {
+  margin-top: -28px;
+}
+.boxes {
+  width: 167px;
+  height: 205px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+}
+.box-content:hover {
+  cursor: pointer;
+  /* transform: scaleY(1.03) translateY(-5px); */
+  /* transition: 0.5s ease; */
+}
+.flex:hover {
+  cursor: pointer;
+  /* transform: scaleY(1.05) translateY(-3px); */
+  /* transition-duration: 500ms; */
 }
 .box-content p {
-    margin: 10px;
+  margin: 10px;
 }
-.For-corner-border-first{
-    border-radius: 0px 0px 0px 15px;
+.For-corner-border-first {
+  border-radius: 0px 0px 0px 15px;
 }
-.For-corner-border-last{
-    border-radius: 0px 0px 15px 0px;
+.For-corner-border-last {
+  border-radius: 0px 0px 15px 0px;
 }
 /* End-cloud-Box */
 
-
-.fa-solid{
-color: #c0daf9;
-text-shadow: -1px 0 rgb(18, 65, 193), 0 1px rgb(44, 44, 161), 1px 0 rgb(21, 37, 113), 0 -1px rgb(35, 88, 173);
+.fa-solid {
+  color: #c0daf9;
+  text-shadow: -1px 0 rgb(18, 65, 193), 0 1px rgb(44, 44, 161),
+    1px 0 rgb(21, 37, 113), 0 -1px rgb(35, 88, 173);
 }
-
-
 
 
 /* 
@@ -136,28 +136,27 @@ html,body,.container001{
   }  */
 
 
-  /* <!-- background-moving-clouds  --> */
-  /* .container001{
-    background-color: #007ced;
-      background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%);
-  } */
-  
-  #cloud-intro{
-    position: relative;
-    height: 100%;
-    background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
-    background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0 200px,
-                url(https://static.radulescu.me/examples/clouds/clouds1200_1.png) 0 300px,
-                url(https://static.radulescu.me/examples/clouds/clouds1000_blur3.png) 100px 250px;
-      animation: wind 20s linear infinite;
-  }
-  @keyframes wind{
-    0% {
-      background-position: 0 200px, 0 300px, 100px 250px;
-    }
-    100% {
-      /* background-position: 1000px 200px, 1200px 300px, 1100px 250px; */
-    }
-  
-  }
 
+/* <!-- background-moving-clouds  --> */
+
+
+#cloud-intro {
+  position: relative;
+  height: 100%;
+  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
+  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0
+      200px,
+    url(https://static.radulescu.me/examples/clouds/clouds1200_1.png) 0 300px,
+    url(https://static.radulescu.me/examples/clouds/clouds1000_blur3.png) 100px
+      250px;
+  animation: wind 20s linear infinite;
+}
+@keyframes wind {
+  0% {
+    background-position: 0 200px, 0 300px, 100px 250px;
+  }
+  100% {
+    /* background-position: 100px ; */
+    background-position: 1000px 200px, 1200px 300px, 1100px 250px;
+  }
+}
